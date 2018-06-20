@@ -1,0 +1,25 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "Portofolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mohammed Duraidi",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mohammedalduraidi/Resume.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Mohammedalduraidi/Resume/issues"
+  },
+  "homepage": "https://github.com/Mohammedalduraidi/Resume#readme"
+}
