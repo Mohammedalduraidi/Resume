@@ -23,6 +23,7 @@
 <script>
 $(document).ready(function(){
   $( "body" ).animate({
+
     width: "100%",
     marginLeft: "0.1in",
     fontSize: "3em",
@@ -32,19 +33,33 @@ $(document).ready(function(){
        // $("h2").slideUp(2000).slideDown(1000)
 });
 </script>
+<style>
+#alo:hover {
+  background-image: url(img/1.jpg);
+    opacity: 0.8;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+#alo {
+   background-image: url(img/1.jpg);
+    opacity: 1.0;
+    filter: alpha(opacity=100); 
+}
+
+
+</style>
 </head>
 
 <body>
   <div class="wrapper" id="wrapper">
     <header>
       <div class="banner row" id="banner">
-         <div class="parallax text-center" style="background-image: url(img/1.jpg); ">
+         <div class="parallax text-center"  id="alo" >
           <div class="parallax-pattern-overlay">
 
             <div class="container text-center" style="height:950px;padding-top:170px;">
             
               <a href="#"><img id="site-title" class=" wow fadeInDown" wow-data-delay="0.0s" wow-data-duration="0.9s" src="https://s33.postimg.cc/lin5ihmin/Screen_Shot_2018-06-12_at_3.21.25_PM.png" alt="" style="border-radius: 50%"/></a>
-              <h2 ><a href="index.html"  class="intro"  style = "color:black;"> Mohammed Duraidi</a></h2>
+              <h2 ><a href="index.html"  class="intro "  style = "color:black; opacity:1;"> Mohammed Duraidi</a></h2>
               <h3 class="intro"><a href="index.html"   style = "color:black;"> Full Stack Software Engineer</a></h3>
               
 
@@ -210,7 +225,7 @@ play my problem solving skills.</h4>
                     <h3>DonateAndHelp</h3>
                    <img src="https://s33.postimg.cc/j8vcwl967/Screen_Shot_2018-06-20_at_6.01.10_PM.png" alt="" />
                   </figure>
-                 
+                  
                  <figcaption>
                     <h3>Website and Application for Donations.</h3>
                       <i class = "fa fa-github" style="color:white">  <a href="https://github.com/Mohammedalduraidi/DonateAndHelp" target="_blank">github link</i></a>
@@ -259,8 +274,8 @@ play my problem solving skills.</h4>
 
           <section class="slideshow">
             <ul>
-              <li class="hello">
-                <figure >
+              <li>
+                <figure>
                   <img src="https://s33.postimg.cc/j8vcwl967/Screen_Shot_2018-06-20_at_6.01.10_PM.png" alt="" />
                 </figure>
               </li>
@@ -306,8 +321,10 @@ play my problem solving skills.</h4>
         <div class="col-md-4 wow fadeInRight" data-wow-offset="0" data-wow-delay="0.3s">
           <div class="text-center">
             <div class="hi-icon-wrap hi-icon-effect">
-              <h4>ReBootKamp (RBK)</h4>
+              <h4>ReBootKamp(RBK) – Full stack web development</h4>
+              
               <h5>FEB 2018 - June 2018</h5>
+
               <i class="fa fa-laptop"></i>
               
             </div>
@@ -436,13 +453,7 @@ play my problem solving skills.</h4>
         });
       });
 
-
-//      window.onclick = function(event) {
-//       console.log("hEllo world",event.target)
-//     // if (event.target == ) {
-//     //   modal.style.display = "none";
-//     // }
-// }
+     
     
 
      
