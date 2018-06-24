@@ -14,10 +14,10 @@
   <link rel="stylesheet" href="css/font-awesome.css">
   <link rel="stylesheet" href="css/animate.css">
   <link href="css/style.css" rel="stylesheet">
-
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
-  
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
   <link href='https://fonts.googleapis.com/css?family=Playball' rel='stylesheet' type='text/css'>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script>
@@ -67,7 +67,7 @@ $(document).ready(function(){
               <h3 class="intro"><a href="index.html"   style = "color:black;"> Full Stack Software Engineer</a></h3>
               
 
-                <h1 class="intro" >  <a href="https://doc-0s-88-docs.googleusercontent.com/docs/securesc/92i0uqqjhag4sh9pr9bto1qei0k3njbu/cvfpk1tetupo2373qaek1tfbpvgk4ia9/1529704800000/03662558486117664341/03662558486117664341/1W2zXQKFdGioh6-90KUNsoDT4_pxAdO1x?e=download" class="button" style="color:black"><i class="fa fa-download"></i> Download Resume</a></h1>
+                <h1 class="intro" >  <a href="file:///Users/rbk27/Downloads/C.V%20Mohammed%20Duraidi%20(3).pdf" class="button" target="_blank" style="color:black"><i class="fa fa-download"></i> Download Resume</a></h1>
               
               
             </div>
@@ -100,7 +100,14 @@ $(document).ready(function(){
           </div>
         </div>
 
-      
+      <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#wrapper" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Home</a>
+  <a href="#aboutus" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">About</a>
+  <a href="#gallery" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">My Projects</a>
+  <a href="#specialties" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Skills</a>
+  <a href="#feedback" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Education</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Contact</a>
+</div>
         </header>
          <!--about me-->
       <section class="aboutus" id="aboutus">
@@ -118,108 +125,208 @@ play my problem solving skills.</h4>
             </div>
        
     </section>
-  
 
-   
-    <section class="gallery" id="gallery">
-      <div class="container">
-        <div class="heading text-center">
+<section class="gallery" id="gallery">
+      
+        <div class="heading text-center ">
           <h2 style="font-size:2.5em">My Projects</h2>
         </div>
+    <div class="w3-black" id="tour">
+    <div class="w3-container w3-content " style="max-width:800px">
+      
+      <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+        <div class="w3-third w3-margin-bottom">
+            
+          <img src="https://s33.postimg.cc/j8vcwl967/Screen_Shot_2018-06-20_at_6.01.10_PM.png" alt="DonateA" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>DonateAndHelp</b></p>
+       
+            <p>Website & Application for Donations.</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">More details</button>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="https://s33.postimg.cc/kqlv5ha0f/Screen_Shot_2018-06-20_at_7.08.38_PM.png" alt="Pocket Job" style="width:100%; height:206px" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Pocket Job</b></p>
+          
+            <p>A website to apply and post jobs</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('Hello').style.display='block'">More details</button>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="  https://s33.postimg.cc/vwkrk56zj/Screen_Shot_2018-06-20_at_6.38.28_PM.png" alt="Mine" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Mine</b></p>
+          
+            <p>A website to save the URLS from internet.</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('World').style.display='block'">More details</button>
+          </div>
+        </div>
+       
+    </div>
+  </div>
 
-        <div id="grid-gallery" class="grid-gallery">
-          <section class="grid-wrap">
-            <ul class="grid">
-              <li class="grid-sizer"></li>
-              <!-- for Masonry column width -->
-              <li>
-                <figure>
-                    <h3>DonateAndHelp</h3>
-                   <img src="https://s33.postimg.cc/j8vcwl967/Screen_Shot_2018-06-20_at_6.01.10_PM.png" alt="" />
-                  
-                  
-                 <figcaption>
-                    <h3>Website & Application for Donations.</h3>
-                      <i class = "fa fa-github" style="color:white">  <a href="https://github.com/Mohammedalduraidi/DonateAndHelp" target="_blank">github link</i></a>
-                     </figcaption>
-                      </figure>
-                    </li>
-                
-              
-              <li>
-                <figure>
-                <h3>Pocket Job</h3>
+  <!--  Modal -->
+  <div id="ticketModal" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+      <header class="w3-container w3-black w3-center "> 
+        <span onclick="document.getElementById('ticketModal').style.display='none'" 
+       class="w3-button w3-black w3-xlarge w3-display-topright"></span>
 
-                  <img src="https://s33.postimg.cc/kqlv5ha0f/Screen_Shot_2018-06-20_at_7.08.38_PM.png" alt="" />
+        <h2 class="w3-wide" style="color:white"><i class="fas fa-hand-holding-usd w3-margin-right" style="color:white"></i>DonateAndHelp</h2>
+      </header>
+        <div class="modal-body">
+                       <div class="w3-container">
+                           <dl class="row">
+                              <dt class="col-sm-3 text-color" style="color:black"><strong>About:</strong></dt>
+                              <dd class="col-sm-9 font-weight-bold" style="color:black">Our project name is "DonateAndHelp" which is a platform on a website and mobile application that connects beneficiaries with donors in order to receive money donations from donors in response to the campaigns uploaded by beneficiaries on the platform. In addition, donors can create campaigns for items they want to donate for beneficiaries.</dd>
+                               <dt> . </dt>
+                               <dd></dd>
+                              <dt class="col-sm-3 text-color" style="color:black"><strong>Tech/Framework used</strong></dt>
+                              <dd class="col-sm-9 font-weight-bold" style="color:black">
+                                  <ul class="list-unstyled" style="color:black">
+                                    <li style="color:black">Reactjs, React-Native, Bootstrap</li>
+                                    <li style="color:black">Node.js Express Framework, Mongodb, Mocha and Chai</li>
+                                  </ul>
+                              </dd>
+                               <dt> . </dt>
+                               <dd> </dd>
+                               <dt class="col-sm-3 text-color" style="color:black"> <i class = "fab fa-github-square "style="color:black"></i> <strong>Github </strong></dt>
+                             <dd class="col-sm-9 font-weight-bold" style="color:black">
+                                      
+                                     <i class = "fab fa-github-square "style="color:black">  
+                              <a href="https://github.com/Mohammedalduraidi/DonateAndHelp" 
+                              target="_blank" style="color:black">github link </a></i>
+                                </dd>
+                                <td>
+                                 <dt class="col-sm-3 text-color" style="color:black"> <i class = "fas fa-globe-americas"style="color:black"></i> <strong>Website </strong></dt>
+                                       <dd class="col-sm-9 font-weight-bold" style="color:black">
+                                      <i class = "fas fa-globe-americas"style="color:black">  
+                              <a href="http://donatandhelp.herokuapp.com/" 
+                              target="_blank" style="color:black">website link </a></i>
 
-                  <figcaption>
-                    
-                    <h3>A website to apply and post jobs</h3>
-                      <i class = "fa fa-github" style="color:white">  <a href="https://github.com/Mohammedalduraidi/GreenFieldProject" target="_blank">github link</i></a>
-                  </figcaption>
-                </figure>
-              </li>
-              <li>
-                <figure>
-                <h3>Mine</h3>
-                  <img src="https://s33.postimg.cc/vwkrk56zj/Screen_Shot_2018-06-20_at_6.38.28_PM.png" alt="" />
-                  <figcaption>
-                    
-                    <h3>A website to save the URLS from internet.</h3>
-                      <i class = "fa fa-github" style="color:white">  <a href="https://github.com/Mohammedalduraidi/Mine" target="_blank">github link</i></a>
-                  </figcaption>
-                </figure>
-              </li>
-              <li>
-                <figure>
-                <h3>RBK-Summer</h3>
-                  <img src="https://s33.postimg.cc/rd8iyferj/Screen_Shot_2018-06-20_at_6.48.20_PM.png" alt="" />
-                  <figcaption>
-                    
-                    <h3>Volunteer at RBK website </h3>
-                      <i class = "fa fa-globe" style="color:white">  <a href="http://summer.rbk.org/" target="_blank">RBK-Summer link</i></a>
-                  </figcaption>
-                </figure>
-              </li>
-             
+                                     </dd>
+                                  
+                            
 
-            </ul>
-          </section>
-          <!-- // end small images -->
+                            </dl>
+                        </div>
+     
+       
+     
+        <button class="w3-button w3-red w3-section" onclick="document.getElementById('ticketModal').style.display='none'">Close <i class="fa fa-remove"></i></button>
+        </div>
+    </div>
+  </div>
 
-          <section class="slideshow">
-            <ul>
-              <li>
-                <figure>
-                  <img src="https://s33.postimg.cc/j8vcwl967/Screen_Shot_2018-06-20_at_6.01.10_PM.png" alt="" />
-                </figure>
-              </li>
-              <li>
-                <figure>
-                  <img src="https://s33.postimg.cc/kqlv5ha0f/Screen_Shot_2018-06-20_at_7.08.38_PM.png" alt="" />
-                </figure>
-              </li>
-              <li>
-                <figure>
-                  <img src="https://s33.postimg.cc/vwkrk56zj/Screen_Shot_2018-06-20_at_6.38.28_PM.png" alt="" />
-                </figure>
-              </li>
-              <li>
-                <figure>
-                  <img src="https://s33.postimg.cc/rd8iyferj/Screen_Shot_2018-06-20_at_6.48.20_PM.png" alt="" />
-                </figure>
-              </li>
-             
-            </ul>
-            <nav>
-              <span class="icon nav-prev"></span>
-              <span class="icon nav-next"></span>
-              <span class="icon nav-close"></span>
-            </nav>
-            <div class="info-keys icon">Navigate with arrow keys</div>
-          </section>
-    <br/>
-    <br/>
+ <div id="Hello" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+      <header class="w3-container w3-black w3-center "> 
+        <span onclick="document.getElementById('Hello').style.display='none'" 
+       class="w3-button w3-black w3-xlarge w3-display-topright"></span>
+
+        <h2 class="w3-wide" style="color:white"><i class="fa fa-suitcase w3-margin-right" style="color:white"></i>Pocket Job</h2>
+      </header>
+        <div class="modal-body">
+                       <div class="w3-container">
+                           <dl class="row">
+                              <dt class="col-sm-3 text-color" style="color:black"><strong>About:</strong></dt>
+                              <dd class="col-sm-9 font-weight-bold" style="color:black">Its a website that allow to the user to apply/post jobs</dd>
+                               <dt> . </dt>
+                               <dd></dd>
+                              <dt class="col-sm-3 text-color" style="color:black"><strong>Tech/Framework used</strong></dt>
+                              <dd class="col-sm-9 font-weight-bold" style="color:black">
+                                  <ul class="list-unstyled" style="color:black">
+                                    <li style="color:black">Reactjs, Bootstrap</li>
+                                    <li style="color:black">Node.js Express Framework, Mongodb</li>
+                                  </ul>
+                              </dd>
+                               <dt> . </dt>
+                               <dd> </dd>
+                               <dt class="col-sm-3 text-color" style="color:black"> <i class = "fab fa-github-square "style="color:black"></i> <strong>Github </strong></dt>
+                             <dd class="col-sm-9 font-weight-bold" style="color:black">
+                                      
+                                     <i class = "fab fa-github-square "style="color:black">  
+                              <a href="https://github.com/Mohammedalduraidi/GreenFieldProject" 
+                              target="_blank" style="color:black">github link </a></i>
+                                </dd>
+                                <td>
+                                 <dt class="col-sm-3 text-color" style="color:black"> <i class = "fas fa-globe-americas"style="color:black"></i> <strong>Website </strong></dt>
+                                       <dd class="col-sm-9 font-weight-bold" style="color:black">
+                                      <i class = "fas fa-globe-americas"style="color:black">  
+                              <a href="#" 
+                              target="_blank" style="color:black">website link </a></i>
+
+                                     </dd>
+                                  
+                            
+
+                            </dl>
+                        </div>
+     
+       
+     
+        <button class="w3-button w3-red w3-section" onclick="document.getElementById('Hello').style.display='none'">Close <i class="fa fa-remove"></i></button>
+        </div>
+    </div>
+  </div>
+<div id="World" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+      <header class="w3-container w3-black w3-center "> 
+        <span onclick="document.getElementById('World').style.display='none'" 
+       class="w3-button w3-black w3-xlarge w3-display-topright"></span>
+
+        <h2 class="w3-wide" style="color:white"><i class="fas fa-paperclip w3-margin-right" style="color:white"></i>Mine</h2>
+      </header>
+        <div class="modal-body">
+                       <div class="w3-container">
+                           <dl class="row">
+                              <dt class="col-sm-3 text-color" style="color:black"><strong>About:</strong></dt>
+                              <dd class="col-sm-9 font-weight-bold" style="color:black">A place where you can save your favorite URLs from all over the internet arranged in catergories and view other users categories.</dd>
+                               <dt> . </dt>
+                               <dd></dd>
+                              <dt class="col-sm-3 text-color" style="color:black"><strong>Tech/Framework used</strong></dt>
+                              <dd class="col-sm-9 font-weight-bold" style="color:black">
+                                  <ul class="list-unstyled" style="color:black">
+                                    <li style="color:black"> Angularjs, Bootstrap,Css</li>
+                                    <li style="color:black">Node.js Express Framework, Mongodb</li>
+                                  </ul>
+                              </dd>
+                               <dt> . </dt>
+                               <dd> </dd>
+                               <dt class="col-sm-3 text-color" style="color:black"> <i class = "fab fa-github-square "style="color:black"></i> <strong>Github </strong></dt>
+                             <dd class="col-sm-9 font-weight-bold" style="color:black">
+                                      
+                                     <i class = "fab fa-github-square "style="color:black">  
+                              <a href="https://github.com/Mohammedalduraidi/Mine" 
+                              target="_blank" style="color:black">github link </a></i>
+                                </dd>
+                                <td>
+                                 <dt class="col-sm-3 text-color" style="color:black"> <i class = "fas fa-globe-americas"style="color:black"></i> <strong>Website </strong></dt>
+                                       <dd class="col-sm-9 font-weight-bold" style="color:black">
+                                      <i class = "fas fa-globe-americas"style="color:black">  
+                              <a href="http://mine-green-field.herokuapp.com/" 
+                              target="_blank" style="color:black">website link </a></i>
+
+                                     </dd>
+                                  
+                            
+
+                            </dl>
+                        </div>
+     
+       
+     
+        <button class="w3-button w3-red w3-section" onclick="document.getElementById('World').style.display='none'">Close <i class="fa fa-remove"></i></button>
+        </div>
+    </div>
+  </div>
+
+</section>
+
+
+     
 
 
     <!--skills-->
@@ -393,7 +500,7 @@ play my problem solving skills.</h4>
                 <li><i class="fa fa-phone fa-2x" ></i> &nbsp;+962-797590369</li>
                 <li><i class="fa fa-envelope fa-2x" ></i> mohd.alduraidi@gmail.com</li>
                  <li><i class="fa fa-map-marker fa-2x"></i> &nbsp;&nbsp;&nbsp;Amman, Jordan</li>
-                <a href="https://doc-0s-88-docs.googleusercontent.com/docs/securesc/92i0uqqjhag4sh9pr9bto1qei0k3njbu/cvfpk1tetupo2373qaek1tfbpvgk4ia9/1529704800000/03662558486117664341/03662558486117664341/1W2zXQKFdGioh6-90KUNsoDT4_pxAdO1x?e=download" class="button"  ><i class="fa fa-download fa-2x"></i>&nbsp; Download Resume</a>
+                <a href="file:///Users/rbk27/Downloads/C.V%20Mohammed%20Duraidi%20(3).pdf" class="button" target="_blank" ><i class="fa fa-download fa-2x"></i>&nbsp; Download Resume</a>
 
               </ul>
             </div>
@@ -466,10 +573,38 @@ play my problem solving skills.</h4>
         });
       });
 
-     
-    
+function myFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
 
+window.onclick = function(event) {
+  var modal = document.getElementById('ticketModal');
+
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+
+ var alo = document.getElementById('Hello');
+  
+  if (event.target == alo) {
+    alo.style.display = "none";
+  }
+
+var alo1 = document.getElementById('World');
+  
+  if (event.target == alo1) {
+    alo1.style.display = "none";
+  }
+
+}
      
+ 
+
 
     });
   </script>
