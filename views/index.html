@@ -47,6 +47,38 @@ $(document).ready(function(){
 </head>
 
 <body>  
+        <div class="navbar-wrapper w3-top">
+        <div class="container">
+          <div class="nav navbar-nav">
+            <div class="navbar navbar-inverse navbar-static-top">
+      <div class="container">
+        <div class="navArea">
+          <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+<ul class="nav navbar-nav">
+
+    <li class="menuItem active "><a href="#wrapper" class="w3-bar-item w3-button  w3-hide-small">Home</a></li>
+    <li class="menuItem"><a href="#aboutus" class="w3-bar-item w3-button  w3-hide-small">About</a></li>
+    <li class="menuItem"><a href="#gallery" class="w3-bar-item w3-button  w3-hide-small">My Projects</a></li>
+     <li class="menuItem"><a href="#specialties" class="w3-bar-item w3-button  w3-hide-small">Skills</a></li>
+      <li class="menuItem"><a href="#feedback" class="w3-bar-item w3-button  w3-hide-small">Education</a></li>
+      <li class="menuItem"><a href="#contact" class="w3-bar-item w3-button  w3-hide-small">Contact</a></li>
+      <li class="menuItem"><a href="https://drive.google.com/uc?authuser=0&id=1BHLcB1GDH6GyjLCwTT7JNy2mJtQWUPQ-&export=download " class="w3-bar-item w3-button  w3-hide-small" target="_blank"><i class="fa fa-download"></i> Download Resume</a></li>
+   </ul>
+      </div>
+</div>
+    </div>
+  </div>
+  </div>
+</div>
+          <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" >
+            <a href="#wrapper" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Home</a>
+    <a href="#aboutus" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">About</a>
+  <a href="#gallery" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">My Projects</a>
+  <a href="#specialties" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Skills</a>
+  <a href="#feedback" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Education</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Contact</a>
+     <a href="https://drive.google.com/uc?authuser=0&id=1BHLcB1GDH6GyjLCwTT7JNy2mJtQWUPQ-&export=download" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()"><i class="fa fa-download"></i> Download Resume</a>
+</div>
 
 
   <div class="wrapper" id="wrapper">
@@ -57,7 +89,7 @@ $(document).ready(function(){
          <div class="parallax text-center"  id="alo" >
           <div class="parallax-pattern-overlay">
 
-            <div class="container text-center" style="height:700px;padding-top:170px;">
+            <div class="container text-center" style="height:850px;padding-top:170px;">
               <a href="#"><img id="site-title" class=" wow fadeInDown" wow-data-delay="0.0s" wow-data-duration="0.9s" src="https://s33.postimg.cc/lin5ihmin/Screen_Shot_2018-06-12_at_3.21.25_PM.png" alt="" style="border-radius: 50%"/></a>
               <h2 ><a href="index.html"  class="intro "  style = "color:black; opacity:1;"> Mohammed Duraidi</a></h2>
               <h3 class="intro"><a href="index.html"   style = "color:black;"> Full Stack Software Engineer</a></h3>
@@ -66,39 +98,40 @@ $(document).ready(function(){
           </div>
         </div>
       </div>
-        <div class="navbar-wrapper">
+        <!-- <div class="navbar-wrapper">
           <div class="container">
             <div class="navwrapper">
               <div class="navbar navbar-inverse navbar-static-top">
                 <div class="container">
                   <div class="navArea">
                     <div class="navbar-collapse collapse">
-                      <ul class="nav navbar-nav">
 
-                        <li class="menuItem active"><a href="#wrapper">Home</a></li>
+                      <ul class="nav navbar-nav">
+                         <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right"  href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a></li>
+                        <li class="menuItem active "><a href="#wrapper">Home</a>
                         <li class="menuItem"><a href="#aboutus">About</a></li>
                         <li class="menuItem"><a href="#gallery">My Projects</a></li>
                         <li class="menuItem"><a href="#specialties">Skills</a></li>
                         <li class="menuItem"><a href="#feedback">Education</a></li>
-                        <li class="menuItem"><a href="#contact">Contact</a></li>
+                        <li class="menuItem"><a href="#contact">Contact</a></li>  
                         <li class="menuItem"><a href="https://drive.google.com/uc?authuser=0&id=1BHLcB1GDH6GyjLCwTT7JNy2mJtQWUPQ-&export=download" class="button" target="_blank"><i class="fa fa-download"></i> Download Resume</a></li>
                             
                          
                       </ul>
+
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-
+        </div> -->
 
 
         </header>
          <!--about me-->
-      <section class="aboutus" id="aboutus">
-      <div class="container">
+      <section class="aboutus" id="aboutus" style="margin-top: -80px">
+      <div class="container" > 
         <div class="heading text-center">
         <h2 style="font-size:2.5em">About Me <h2>
           <h4> I am a self-motivated, team player, 
@@ -634,6 +667,18 @@ var alo1 = document.getElementById('World');
 
 
     });
+  </script>
+  <script type="text/javascript">
+
+    function myFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+
   </script>
   <script src="contactform/contactform.js"></script>
 
