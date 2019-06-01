@@ -7,358 +7,320 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>You need duraidi</title>
+  <title>Mohammed Duraidi Resume</title>
 
   <!-- Bootstrap -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/font-awesome.css">
   <link rel="stylesheet" href="css/animate.css">
   <link href="css/style.css" rel="stylesheet">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic'
+    rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+    crossorigin="anonymous">
   <link href='https://fonts.googleapis.com/css?family=Playball' rel='stylesheet' type='text/css'>
   <link rel="shortcut icon" type="image/x-icon" href="https://s22.postimg.cc/xcxl1243l/resume_image.png" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<style>
-#alo{
-  background-image: url("https://s33.postimg.cc/5kxs1hlvj/some_image.jpg");
+  <style>
+    #alo{
+  background: url(https://source.unsplash.com/random);
     opacity: 0.8;
     filter: alpha(opacity=100); /* For IE8 and earlier */
-
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover
+}
+.jackel{
+  border-radius: 50%;
+ 
+  
 }
 
 
 </style>
 </head>
 
-<body>  
-          <!-- nav bar -->
-        <div class="navbar-wrapper w3-top">
-        <div class="container">
-          <div class="nav navbar-nav">
-            <div class="navbar navbar-inverse navbar-static-top">
-      <div class="container">
-        <div class="navArea">
-          <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-<ul class="nav navbar-nav">
+<body>
+  <!-- nav bar -->
+  <div class="navbar-wrapper w3-top">
+    <div class="container">
+      <div class="nav navbar-nav">
+        <div class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+            <div class="navArea">
+              <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)"
+                onclick="smallScreen()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+              <ul class="nav navbar-nav">
 
-    <li class="menuItem active "><a href="#wrapper" class="w3-bar-item w3-button  w3-hide-small">Home</a></li>
-    <li class="menuItem"><a href="#aboutus" class="w3-bar-item w3-button  w3-hide-small">About</a></li>
-    <li class="menuItem"><a href="#gallery" class="w3-bar-item w3-button  w3-hide-small">My Projects</a></li>
-     <li class="menuItem"><a href="#specialties" class="w3-bar-item w3-button  w3-hide-small">Skills</a></li>
-      <li class="menuItem"><a href="#feedback" class="w3-bar-item w3-button  w3-hide-small">Education</a></li>
-      <li class="menuItem"><a href="#contact" class="w3-bar-item w3-button  w3-hide-small">Contact</a></li>
-      <li class="menuItem"><a href="https://drive.google.com/uc?authuser=0&id=1BHLcB1GDH6GyjLCwTT7JNy2mJtQWUPQ-&export=download " class="w3-bar-item w3-button  w3-hide-small" target="_blank"><i class="fa fa-download"></i> Download Resume</a></li>
-   </ul>
+                <li class="menuItem active "><a href="#wrapper" class="w3-bar-item w3-button  w3-hide-small">Home</a></li>
+                <li class="menuItem"><a href="#aboutus" class="w3-bar-item w3-button  w3-hide-small">About</a></li>
+                <li class="menuItem"><a href="#gallery" class="w3-bar-item w3-button  w3-hide-small">My Projects</a></li>
+                <li class="menuItem"><a href="#specialties" class="w3-bar-item w3-button  w3-hide-small">Skills</a></li>
+                <li class="menuItem"><a href="#feedback" class="w3-bar-item w3-button  w3-hide-small">Education</a></li>
+                <li class="menuItem"><a href="#contact" class="w3-bar-item w3-button  w3-hide-small">Contact</a></li>
+                <li class="menuItem"><a href="https://drive.google.com/uc?authuser=0&id=1c_Yl1RQMwkq4qJrWQiUuN8MUa7kgIKV2&export=download "
+                    class="w3-bar-item w3-button  w3-hide-small" target="_blank"><i class="fa fa-download"></i>
+                    Download Resume</a></li>
+
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
-</div>
     </div>
   </div>
+
+
+  <!-- adding a nav-bar button for small screens -->
+  <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top">
+    <a href="#wrapper" class="w3-bar-item w3-button w3-padding-large" onclick="smallScreen()">Home</a>
+    <a href="#aboutus" class="w3-bar-item w3-button w3-padding-large" onclick="smallScreen()">About</a>
+    <a href="#gallery" class="w3-bar-item w3-button w3-padding-large" onclick="smallScreen()">My Projects</a>
+    <a href="#specialties" class="w3-bar-item w3-button w3-padding-large" onclick="smallScreen()">Skills</a>
+    <a href="#feedback" class="w3-bar-item w3-button w3-padding-large" onclick="smallScreen()">Education</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="smallScreen()">Contact</a>
+    <a href="https://drive.google.com/uc?authuser=0&id=1c_Yl1RQMwkq4qJrWQiUuN8MUa7kgIKV2&export=download" class="w3-bar-item w3-button w3-padding-large"
+      onclick="smallScreen()"><i class="fa fa-download"></i> Download Resume</a>
   </div>
-</div>  
-
-
-<!-- adding a nav-bar button for small screens -->
-          <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" >
-            <a href="#wrapper" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Home</a>
-    <a href="#aboutus" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">About</a>
-  <a href="#gallery" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">My Projects</a>
-  <a href="#specialties" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Skills</a>
-  <a href="#feedback" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Education</a>
-    <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Contact</a>
-     <a href="https://drive.google.com/uc?authuser=0&id=1BHLcB1GDH6GyjLCwTT7JNy2mJtQWUPQ-&export=download" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()"><i class="fa fa-download"></i> Download Resume</a>
-</div>
-
 
   <div class="wrapper" id="wrapper">
-
     <header>
-
       <div class="banner row" id="banner">
-         <div class="parallax text-center"  id="alo" >
+        <div class="parallax text-center" id="alo">
           <div class="parallax-pattern-overlay">
 
             <div class="container text-center" style="height:850px;padding-top:170px;">
-              <a href="#"><img id="site-title" class=" wow fadeInDown" wow-data-delay="0.0s" wow-data-duration="0.9s" src="https://s33.postimg.cc/lin5ihmin/Screen_Shot_2018-06-12_at_3.21.25_PM.png" alt="" style="border-radius: 50%"/></a>
-              <h2 ><a href="index.html"  class="intro "  style = "color:black; opacity:1;"> Mohammed Duraidi</a></h2>
-              <h3 class="intro"><a href="index.html"   style = "color:black;"> Full Stack Software Engineer</a></h3>
+              <a href="#"><img id="site-title" class=" wow fadeInDown jackel" wow-data-delay="0.0s" wow-data-duration="0.9s"
+                  src="https://s33.postimg.cc/lin5ihmin/Screen_Shot_2018-06-12_at_3.21.25_PM.png" alt="" /></a>
+              <h2><a href="index.html" class="intro " style="color:black; opacity:1;"> Mohammed Duraidi</a></h2>
+              <h3 class="intro"><a href="index.html" style="color:black;"> Full Stack Software Engineer</a></h3>
             </div>
 
           </div>
         </div>
+
       </div>
-        <!-- <div class="navbar-wrapper">
-          <div class="container">
-            <div class="navwrapper">
-              <div class="navbar navbar-inverse navbar-static-top">
-                <div class="container">
-                  <div class="navArea">
-                    <div class="navbar-collapse collapse">
 
-                      <ul class="nav navbar-nav">
-                         <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right"  href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a></li>
-                        <li class="menuItem active "><a href="#wrapper">Home</a>
-                        <li class="menuItem"><a href="#aboutus">About</a></li>
-                        <li class="menuItem"><a href="#gallery">My Projects</a></li>
-                        <li class="menuItem"><a href="#specialties">Skills</a></li>
-                        <li class="menuItem"><a href="#feedback">Education</a></li>
-                        <li class="menuItem"><a href="#contact">Contact</a></li>  
-                        <li class="menuItem"><a href="https://drive.google.com/uc?authuser=0&id=1BHLcB1GDH6GyjLCwTT7JNy2mJtQWUPQ-&export=download" class="button" target="_blank"><i class="fa fa-download"></i> Download Resume</a></li>
-                            
-                         
-                      </ul>
+    </header>
+    <!--about me-->
+    <section class="aboutus" id="aboutus" style="margin-top: -80px">
+      <div class="container">
+        <div class="heading text-center">
+          <h2 style="font-size:2.5em">About Me <h2>
+              <h4> I am a self-motivated, team player,
+                seeking to join a creative software
+                development team where i can
+                ply my problem solving skills.</h4>
+        </div>
+      </div>
 
-                    </div>
-                  </div>
-                </div>
+    </section>
+
+    <section class="gallery" id="gallery">
+
+      <div class="heading text-center ">
+        <h2 style="font-size:2.5em">My Projects</h2>
+      </div>
+      <div class="w3-black" id="tour">
+        <div class="w3-container w3-content " style="max-width:800px">
+
+          <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+            <div class="w3-third w3-margin-bottom">
+
+              <img src="https://s33.postimg.cc/j8vcwl967/Screen_Shot_2018-06-20_at_6.01.10_PM.png" alt="DonateA" style="width:100%"
+                class="w3-hover-opacity">
+              <div class="w3-container w3-white">
+                <p><b>DonateAndHelp</b></p>
+                <p>Website & Application for Donations.</p>
+                <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">More
+                  details</button>
+              </div>
+            </div>
+            <div class="w3-third w3-margin-bottom">
+              <img src="https://s33.postimg.cc/kqlv5ha0f/Screen_Shot_2018-06-20_at_7.08.38_PM.png" alt="Pocket Job"
+                style="width:100%; height:206px" class="w3-hover-opacity">
+              <div class="w3-container w3-white">
+                <p><b>Pocket Job</b></p>
+                <p>A website to apply and post jobs</p>
+                <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('Hello').style.display='block'">More
+                  details</button>
+              </div>
+            </div>
+            <div class="w3-third w3-margin-bottom">
+              <img src="  https://s33.postimg.cc/vwkrk56zj/Screen_Shot_2018-06-20_at_6.38.28_PM.png" alt="Mine" style="width:100%"
+                class="w3-hover-opacity">
+              <div class="w3-container w3-white">
+                <p><b>Mine</b></p>
+
+                <p>A website to save the URLS from internet.</p>
+                <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('World').style.display='block'">More
+                  details</button>
               </div>
             </div>
           </div>
-        </div> -->
-
-
-        </header>
-         <!--about me-->
-      <section class="aboutus" id="aboutus" style="margin-top: -80px">
-      <div class="container" > 
-        <div class="heading text-center">
-        <h2 style="font-size:2.5em">About Me <h2>
-          <h4> I am a self-motivated, team player, 
-seeking to join a creative software
-development team where i can
-ply my problem solving skills.</h4>
-          
         </div>
-       
-         
+
+        <!--  Modal -->
+        <div id="ticketModal" class="w3-modal">
+          <div class="w3-modal-content w3-animate-top w3-card-4">
+            <header class="w3-container w3-black w3-center ">
+              <span onclick="document.getElementById('ticketModal').style.display='none'" class="w3-button w3-black w3-xlarge w3-display-topright"></span>
+              <h2 class="w3-wide" style="color:white"><i class="fas fa-hand-holding-usd w3-margin-right" style="color:white"></i>DonateAndHelp</h2>
+            </header>
+            <div class="modal-body">
+              <div class="w3-container">
+                <dl class="row">
+                  <dt class="col-sm-3 text-color" style="color:black"><strong>About:</strong></dt>
+                  <dd class="col-sm-9 font-weight-bold" style="color:black">Our project name is "DonateAndHelp" which
+                    is a platform on a website and mobile application that connects beneficiaries with donors in order
+                    to receive money donations from donors in response to the campaigns uploaded by beneficiaries on
+                    the platform. In addition, donors can create campaigns for items they want to donate for
+                    beneficiaries.</dd>
+                  <dt> . </dt>
+                  <dd></dd>
+                  <dt class="col-sm-3 text-color" style="color:black"><strong>Tech/Framework used</strong></dt>
+                  <dd class="col-sm-9 font-weight-bold" style="color:black">
+                    <ul class="list-unstyled" style="color:black">
+                      <li style="color:black">Reactjs, React-Native, Bootstrap, Css</li>
+                      <li style="color:black">Node.js Express Framework, Mongodb, Mocha and Chai</li>
+                    </ul>
+                  </dd>
+                  <dt> . </dt>
+                  <dd> </dd>
+                  <dt class="col-sm-3 text-color" style="color:black"> <strong>Github </strong></dt>
+                  <dd class="col-sm-9 font-weight-bold" style="color:black">
+                    <i class="fab fa-github-square " style="color:black">
+                      <a href="https://github.com/Mohammedalduraidi/DonateAndHelp" target="_blank" style="color:black">github
+                        link </a></i>
+                  </dd>
+                  <td>
+                    <dt class="col-sm-3 text-color" style="color:black"> </i> <strong>Website </strong></dt>
+                    <dd class="col-sm-9 font-weight-bold" style="color:black">
+                      <i class="fas fa-globe-americas" style="color:black">
+                        <a href="http://donatandhelp.herokuapp.com/" target="_blank" style="color:black">website link
+                        </a></i>
+                    </dd>
+                  <td>
+                    <dt class="col-sm-3 text-color" style="color:black"> <strong>Demo </strong></dt>
+                    <dd class="col-sm-9 font-weight-bold" style="color:black">
+                      <i class="fab fa-youtube-square" style="color:black">
+                        <a href="https://www.youtube.com/watch?v=XIajlH24SBk&feature=youtu.be" target="_blank" style="color:black">Watch
+                          the Demo</a></i>
+                    </dd>
+                </dl>
+              </div>
+              <button class="w3-button w3-red w3-section" onclick="document.getElementById('ticketModal').style.display='none'">Close
+                <i class="fa fa-remove"></i></button>
             </div>
-       
+          </div>
+        </div>
+        <div id="Hello" class="w3-modal">
+          <div class="w3-modal-content w3-animate-top w3-card-4">
+            <header class="w3-container w3-black w3-center ">
+              <span onclick="document.getElementById('Hello').style.display='none'" class="w3-button w3-black w3-xlarge w3-display-topright"></span>
+              <h2 class="w3-wide" style="color:white"><i class="fa fa-suitcase w3-margin-right" style="color:white"></i>Pocket
+                Job</h2>
+            </header>
+            <div class="modal-body">
+              <div class="w3-container">
+                <dl class="row">
+                  <dt class="col-sm-3 text-color" style="color:black"><strong>About:</strong></dt>
+                  <dd class="col-sm-9 font-weight-bold" style="color:black">Its a website that allow to the user to
+                    apply/post jobs</dd>
+                  <dt> . </dt>
+                  <dd></dd>
+                  <dt class="col-sm-3 text-color" style="color:black"><strong>Tech/Framework used</strong></dt>
+                  <dd class="col-sm-9 font-weight-bold" style="color:black">
+                    <ul class="list-unstyled" style="color:black">
+                      <li style="color:black">Reactjs, Bootstrap, Css</li>
+                      <li style="color:black">Node.js Express Framework, Mongodb</li>
+                    </ul>
+                  </dd>
+                  <dt> . </dt>
+                  <dd> </dd>
+                  <dt class="col-sm-3 text-color" style="color:black"> <strong>Github </strong></dt>
+                  <dd class="col-sm-9 font-weight-bold" style="color:black">
+                    <i class="fab fa-github-square " style="color:black">
+                      <a href="https://github.com/Mohammedalduraidi/GreenFieldProject" target="_blank" style="color:black">github
+                        link </a></i>
+                  </dd>
+                  <td>
+                    <dt class="col-sm-3 text-color" style="color:black"> <strong>Website </strong></dt>
+                    <dd class="col-sm-9 font-weight-bold" style="color:black">
+                      <i class="fas fa-globe-americas" style="color:black">
+                        <a href="https://pocket-job.herokuapp.com/" target="_blank" style="color:black">website link
+                        </a></i>
+                    </dd>
+                  <td>
+                    <dt class="col-sm-3 text-color" style="color:black"> <strong>Demo </strong></dt>
+                    <dd class="col-sm-9 font-weight-bold" style="color:black">
+                      <i class="fab fa-youtube-square" style="color:black">
+                        <a href="https://www.youtube.com/watch?v=CFFTULo-0wE&t=1s" target="_blank" style="color:black">Watch
+                          the Demo</a></i>
+                    </dd>
+                </dl>
+              </div>
+
+              <button class="w3-button w3-red w3-section" onclick="document.getElementById('Hello').style.display='none'">Close
+                <i class="fa fa-remove"></i></button>
+            </div>
+          </div>
+        </div>
+        <div id="World" class="w3-modal">
+          <div class="w3-modal-content w3-animate-top w3-card-4">
+            <header class="w3-container w3-black w3-center ">
+              <span onclick="document.getElementById('World').style.display='none'" class="w3-button w3-black w3-xlarge w3-display-topright"></span>
+
+              <h2 class="w3-wide" style="color:white"><i class="fas fa-paperclip w3-margin-right" style="color:white"></i>Mine</h2>
+            </header>
+            <div class="modal-body">
+              <div class="w3-container">
+                <dl class="row">
+                  <dt class="col-sm-3 text-color" style="color:black"><strong>About:</strong></dt>
+                  <dd class="col-sm-9 font-weight-bold" style="color:black">A place where you can save your favorite
+                    URLs from all over the internet arranged in catergories and view other users categories.</dd>
+                  <dt> . </dt>
+                  <dd></dd>
+                  <dt class="col-sm-3 text-color" style="color:black"><strong>Tech/Framework used</strong></dt>
+                  <dd class="col-sm-9 font-weight-bold" style="color:black">
+                    <ul class="list-unstyled" style="color:black">
+                      <li style="color:black"> Angularjs, Bootstrap,Css</li>
+                      <li style="color:black">Node.js Express Framework, Mongodb</li>
+                    </ul>
+                  </dd>
+                  <dt> . </dt>
+                  <dd> </dd>
+                  <dt class="col-sm-3 text-color" style="color:black"> <strong>Github </strong></dt>
+                  <dd class="col-sm-9 font-weight-bold" style="color:black">
+                    <i class="fab fa-github-square " style="color:black">
+                      <a href="https://github.com/Mohammedalduraidi/Mine" target="_blank" style="color:black">github
+                        link </a></i>
+                  </dd>
+                  <td>
+                    <dt class="col-sm-3 text-color" style="color:black"> <strong>Website </strong></dt>
+                    <dd class="col-sm-9 font-weight-bold" style="color:black">
+                      <i class="fas fa-globe-americas" style="color:black">
+                        <a href="http://mine-green-field.herokuapp.com/" target="_blank" style="color:black">website
+                          link </a></i>
+
+                    </dd>
+                  <td>
+                    <dt class="col-sm-3 text-color" style="color:black"> <strong>Demo </strong></dt>
+                    <dd class="col-sm-9 font-weight-bold" style="color:black">
+                      <i class="fab fa-youtube-square" style="color:black">
+                        <a href="https://www.youtube.com/watch?v=CaIvWlZYcIg&feature=youtu.be" target="_blank" style="color:black">Watch
+                          the Demo</a></i>
+                    </dd>
+                </dl>
+              </div>
+              <button class="w3-button w3-red w3-section" onclick="document.getElementById('World').style.display='none'">Close
+                <i class="fa fa-remove"></i></button>
+            </div>
+          </div>
+        </div>
     </section>
-
-<section class="gallery" id="gallery">
-      
-        <div class="heading text-center ">
-          <h2 style="font-size:2.5em">My Projects</h2>
-        </div>
-    <div class="w3-black" id="tour">
-    <div class="w3-container w3-content " style="max-width:800px">
-      
-      <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
-        <div class="w3-third w3-margin-bottom">
-            
-          <img src="https://s33.postimg.cc/j8vcwl967/Screen_Shot_2018-06-20_at_6.01.10_PM.png" alt="DonateA" style="width:100%" class="w3-hover-opacity">
-          <div class="w3-container w3-white">
-            <p><b>DonateAndHelp</b></p>
-       
-            <p>Website & Application for Donations.</p>
-            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">More details</button>
-          </div>
-        </div>
-        <div class="w3-third w3-margin-bottom">
-          <img src="https://s33.postimg.cc/kqlv5ha0f/Screen_Shot_2018-06-20_at_7.08.38_PM.png" alt="Pocket Job" style="width:100%; height:206px" class="w3-hover-opacity">
-          <div class="w3-container w3-white">
-            <p><b>Pocket Job</b></p>
-          
-            <p>A website to apply and post jobs</p>
-            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('Hello').style.display='block'">More details</button>
-          </div>
-        </div>
-        <div class="w3-third w3-margin-bottom">
-          <img src="  https://s33.postimg.cc/vwkrk56zj/Screen_Shot_2018-06-20_at_6.38.28_PM.png" alt="Mine" style="width:100%" class="w3-hover-opacity">
-          <div class="w3-container w3-white">
-            <p><b>Mine</b></p>
-          
-            <p>A website to save the URLS from internet.</p>
-            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('World').style.display='block'">More details</button>
-          </div>
-        </div>
-       
-    </div>
-  </div>
-
-  <!--  Modal -->
-  <div id="ticketModal" class="w3-modal">
-    <div class="w3-modal-content w3-animate-top w3-card-4">
-      <header class="w3-container w3-black w3-center "> 
-        <span onclick="document.getElementById('ticketModal').style.display='none'" 
-       class="w3-button w3-black w3-xlarge w3-display-topright"></span>
-
-        <h2 class="w3-wide" style="color:white"><i class="fas fa-hand-holding-usd w3-margin-right" style="color:white"></i>DonateAndHelp</h2>
-      </header>
-        <div class="modal-body">
-                       <div class="w3-container">
-                           <dl class="row">
-                              <dt class="col-sm-3 text-color" style="color:black"><strong>About:</strong></dt>
-                              <dd class="col-sm-9 font-weight-bold" style="color:black">Our project name is "DonateAndHelp" which is a platform on a website and mobile application that connects beneficiaries with donors in order to receive money donations from donors in response to the campaigns uploaded by beneficiaries on the platform. In addition, donors can create campaigns for items they want to donate for beneficiaries.</dd>
-                               <dt> . </dt>
-                               <dd></dd>
-                              <dt class="col-sm-3 text-color" style="color:black"><strong>Tech/Framework used</strong></dt>
-                              <dd class="col-sm-9 font-weight-bold" style="color:black">
-                                  <ul class="list-unstyled" style="color:black">
-                                    <li style="color:black">Reactjs, React-Native, Bootstrap, Css</li>
-                                    <li style="color:black">Node.js Express Framework, Mongodb, Mocha and Chai</li>
-                                  </ul>
-                              </dd>
-                               <dt> . </dt>
-                               <dd> </dd>
-                               <dt class="col-sm-3 text-color" style="color:black">  <strong>Github </strong></dt>
-                             <dd class="col-sm-9 font-weight-bold" style="color:black">
-                                      
-                                     <i class = "fab fa-github-square "style="color:black">  
-                              <a href="https://github.com/Mohammedalduraidi/DonateAndHelp" 
-                              target="_blank" style="color:black">github link </a></i>
-                                </dd>
-                                <td>
-                                 <dt class="col-sm-3 text-color" style="color:black"> </i> <strong>Website </strong></dt>
-                                       <dd class="col-sm-9 font-weight-bold" style="color:black">
-                                      <i class = "fas fa-globe-americas"style="color:black">  
-                              <a href="http://donatandhelp.herokuapp.com/" 
-                              target="_blank" style="color:black">website link </a></i>
-
-                                     </dd>
-                                        <td>
-                                 <dt class="col-sm-3 text-color" style="color:black">  <strong>Demo </strong></dt>
-                                       <dd class="col-sm-9 font-weight-bold" style="color:black">
-                                      <i class = "fab fa-youtube-square"style="color:black">  
-                              <a href="https://www.youtube.com/watch?v=XIajlH24SBk&feature=youtu.be" 
-                              target="_blank" style="color:black">Watch the Demo</a></i>
-
-                                     </dd>
-                                  
-                            
-
-                            </dl>
-                        </div>
-     
-       
-     
-        <button class="w3-button w3-red w3-section" onclick="document.getElementById('ticketModal').style.display='none'">Close <i class="fa fa-remove"></i></button>
-        </div>
-    </div>
-  </div>
-
- <div id="Hello" class="w3-modal">
-    <div class="w3-modal-content w3-animate-top w3-card-4">
-      <header class="w3-container w3-black w3-center "> 
-        <span onclick="document.getElementById('Hello').style.display='none'" 
-       class="w3-button w3-black w3-xlarge w3-display-topright"></span>
-
-        <h2 class="w3-wide" style="color:white"><i class="fa fa-suitcase w3-margin-right" style="color:white"></i>Pocket Job</h2>
-      </header>
-        <div class="modal-body">
-                       <div class="w3-container">
-                           <dl class="row">
-                              <dt class="col-sm-3 text-color" style="color:black"><strong>About:</strong></dt>
-                              <dd class="col-sm-9 font-weight-bold" style="color:black">Its a website that allow to the user to apply/post jobs</dd>
-                               <dt> . </dt>
-                               <dd></dd>
-                              <dt class="col-sm-3 text-color" style="color:black"><strong>Tech/Framework used</strong></dt>
-                              <dd class="col-sm-9 font-weight-bold" style="color:black">
-                                  <ul class="list-unstyled" style="color:black">
-                                    <li style="color:black">Reactjs, Bootstrap, Css</li>
-                                    <li style="color:black">Node.js Express Framework, Mongodb</li>
-                                  </ul>
-                              </dd>
-                               <dt> . </dt>
-                               <dd> </dd>
-                               <dt class="col-sm-3 text-color" style="color:black">  <strong>Github </strong></dt>
-                             <dd class="col-sm-9 font-weight-bold" style="color:black">
-                                      
-                                     <i class = "fab fa-github-square "style="color:black">  
-                              <a href="https://github.com/Mohammedalduraidi/GreenFieldProject" 
-                              target="_blank" style="color:black">github link </a></i>
-                                </dd>
-                                <td>
-                                 <dt class="col-sm-3 text-color" style="color:black">  <strong>Website </strong></dt>
-                                       <dd class="col-sm-9 font-weight-bold" style="color:black">
-                                      <i class = "fas fa-globe-americas"style="color:black">  
-                              <a href="https://pocket-job.herokuapp.com/" target="_blank" style="color:black">website link </a></i>
-
-                                     </dd>
-                                         <td>
-                                 <dt class="col-sm-3 text-color" style="color:black">  <strong>Demo </strong></dt>
-                                       <dd class="col-sm-9 font-weight-bold" style="color:black">
-                                      <i class = "fab fa-youtube-square"style="color:black">  
-                              <a href="https://www.youtube.com/watch?v=CFFTULo-0wE&t=1s" 
-                              target="_blank" style="color:black">Watch the Demo</a></i>
-
-                                     </dd>
-                            
-
-                            </dl>
-                        </div>
-     
-       
-     
-        <button class="w3-button w3-red w3-section" onclick="document.getElementById('Hello').style.display='none'">Close <i class="fa fa-remove"></i></button>
-        </div>
-    </div>
-  </div>
-<div id="World" class="w3-modal">
-    <div class="w3-modal-content w3-animate-top w3-card-4">
-      <header class="w3-container w3-black w3-center "> 
-        <span onclick="document.getElementById('World').style.display='none'" 
-       class="w3-button w3-black w3-xlarge w3-display-topright"></span>
-
-        <h2 class="w3-wide" style="color:white"><i class="fas fa-paperclip w3-margin-right" style="color:white"></i>Mine</h2>
-      </header>
-        <div class="modal-body">
-                       <div class="w3-container">
-                           <dl class="row">
-                              <dt class="col-sm-3 text-color" style="color:black"><strong>About:</strong></dt>
-                              <dd class="col-sm-9 font-weight-bold" style="color:black">A place where you can save your favorite URLs from all over the internet arranged in catergories and view other users categories.</dd>
-                               <dt> . </dt>
-                               <dd></dd>
-                              <dt class="col-sm-3 text-color" style="color:black"><strong>Tech/Framework used</strong></dt>
-                              <dd class="col-sm-9 font-weight-bold" style="color:black">
-                                  <ul class="list-unstyled" style="color:black">
-                                    <li style="color:black"> Angularjs, Bootstrap,Css</li>
-                                    <li style="color:black">Node.js Express Framework, Mongodb</li>
-                                  </ul>
-                              </dd>
-                               <dt> . </dt>
-                               <dd> </dd>
-                               <dt class="col-sm-3 text-color" style="color:black">  <strong>Github </strong></dt>
-                             <dd class="col-sm-9 font-weight-bold" style="color:black">
-                                      
-                                     <i class = "fab fa-github-square "style="color:black">  
-                              <a href="https://github.com/Mohammedalduraidi/Mine" 
-                              target="_blank" style="color:black">github link </a></i>
-                                </dd>
-                                <td>
-                                 <dt class="col-sm-3 text-color" style="color:black">  <strong>Website </strong></dt>
-                                       <dd class="col-sm-9 font-weight-bold" style="color:black">
-                                      <i class = "fas fa-globe-americas"style="color:black">  
-                              <a href="http://mine-green-field.herokuapp.com/" 
-                              target="_blank" style="color:black">website link </a></i>
-
-                                     </dd>
-                                  
-                                   <td>
-                                 <dt class="col-sm-3 text-color" style="color:black">  <strong>Demo </strong></dt>
-                                       <dd class="col-sm-9 font-weight-bold" style="color:black">
-                                      <i class = "fab fa-youtube-square"style="color:black">  
-                              <a href="https://www.youtube.com/watch?v=CaIvWlZYcIg&feature=youtu.be" 
-                              target="_blank" style="color:black">Watch the Demo</a></i>
-
-                                     </dd>
-
-                            </dl>
-                        </div>
-     
-       
-     
-        <button class="w3-button w3-red w3-section" onclick="document.getElementById('World').style.display='none'">Close <i class="fa fa-remove"></i></button>
-        </div>
-    </div>
-  </div>
-
-</section>
-
-
-     
     <!--skills-->
     <section class="specialties" id="specialties">
       <div class="container">
@@ -366,75 +328,68 @@ ply my problem solving skills.</h4>
           <h2 style="font-size:2.5em"> Technical Skills</h2>
         </div>
       </div>
-
       <div class="container">
         <div class="row">
-          <div class="col-md-6 wow fadeInRight" data-wow-offset="0" data-wow-delay="0.3s" >
-					<div class="skill ">
-						<div class="progress-wrap ">
-            <ul>
-							<li><h3>JavaScript, HTML, CSS, Bootstrap</h3></li>
-						</ul>
-						</div>
-
+          <div class="col-md-6 wow fadeInRight" data-wow-offset="0" data-wow-delay="0.3s">
+            <div class="skill ">
               <div class="progress-wrap ">
-               <ul>
-              <li>
-              <h3>Angularjs, Reactjs, React-Native</h3>
-            </li>
-            </ul>
+                <ul>
+                  <li>
+                    <h3>JavaScript, HTML, CSS, Bootstrap</h3>
+                  </li>
+                </ul>
+              </div>
+              <div class="progress-wrap ">
+                <ul>
+                  <li>
+                    <h3>Angular, Reactjs, React-Native, Redux</h3>
+                  </li>
+                </ul>
+              </div>
+              <div class="progress-wrap ">
+                <ul>
+                  <li>
+                    <h3>NodeJs(Express-framework), Solidity, Hyperledger Sawtooth (Blockchain platform)</h3>
+                  </li>
+                </ul>
+              </div>
+              <div class="progress-wrap ">
+                <ul>
+                  <li>
+                    <h3>Mongodb, Mysql</h3>
+                  </li>
+                </ul>
+              </div>
             </div>
-
-						<div class="progress-wrap " >
-            <ul>
-              <li>
-							<h3 >NodeJs, Express</h3>
-							</li>
-            </ul>
-						</div>
-
-
-
-						<div class="progress-wrap ">
-            <ul>
-              <li>
-							<h3>Mongodb, Mysql</h3>
-              </li>
-							</ul>
-            
-						</div>
-
-						
-					</div>
-				</div>
-
-				
+          </div>
         </div>
       </div>
-      </section>
+    </section>
 
-   <section class="specialties" id="specialties">
+    <section class="specialties" id="specialties">
       <div class="container">
         <div class="heading text-center">
-                <h2 style="font-size:2.5em"> Personal Skills</h2>
+          <h2 style="font-size:2.5em"> Skills And Interests</h2>
         </div>
       </div>
 
       <div class="container">
         <div class="row">
           <div class="col-md-6 wow fadeInRight" data-wow-offset="0" data-wow-delay="0.3s" ">
-          <div class="skill ">
-            <div class="progress-wrap ">
+          <div class="
+            skill ">
+            <div class=" progress-wrap
+            ">
             <ul>
             <li>
-              <h3>Solving any problem thrown at me</h3>
+              <h3>Traveling, Dancing, Learning, Production</h3>
                </li>
-              </ul>
-
-            
+              </ul>    
             </div>
 
-              <div class="progress-wrap ">
+              <div class="
+            progress-wrap
+            ">
               <ul>
             <li>
               <h3>Comfortable with public speaking</h3>
@@ -442,94 +397,79 @@ ply my problem solving skills.</h4>
               </ul>
             </div>
 
-            <div class="progress-wrap " >
-             <ul>
-            <li>
-               <h3>Working collaboratively</h3>
-                </li>
-              </ul>
-            </div>
 
-
-
-            <div class="progress-wrap ">
-             <ul>
-            <li>
-           <h3>Autonomous Learning</h3>
-               </li>
-              </ul>
-            </div>
-
-            <div class="progress-wrap ">
-             <ul>
-            <li>
-           <h3>Leadership</h3>
-               </li>
-              </ul>
-            </div>
+            <ul>
+              <li>
+                <h3>Working collaboratively</h3>
+              </li>
+            </ul>
           </div>
-        </div>
 
-        
-        </div>
-      </div>
-      </section>      
-
-      
-
-    <!--projects-->
-    
-          <!-- // end slideshow -->
-        </div>
-        <!-- // grid-gallery -->
-      </div>
-    </section>
-
-    <!--education-->
-    <section class="feedback" id="feedback">
-      <div class="container">
-        <div class="heading">
-          <h2 style="font-size:2.5em">Education</h2>
-        </div>
-      </div>
-
-      <div class="container">
-        <div class="col-md-4 wow fadeInRight" data-wow-offset="0" data-wow-delay="0.3s">
-          <div class="text-center">
-            <div class="hi-icon-wrap hi-icon-effect">
-              <h4>ReBootKamp(RBK) – Full stack web development</h4>
-              
-              <h5>FEB 2018 - June 2018</h5>
-
-              <i class="fa fa-laptop"></i>
-              
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4 wow fadeInRight" data-wow-offset="0" data-wow-delay="0.6s">
-          <div class="text-center">
-            <div class="hi-icon-wrap hi-icon-effect">
-              <h4>German Language Certification (Goethe Institute). </h4>
-              <h5>FEB 2014 - DEC 2014</h5>
-              <i class="fa fa-book"></i>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4 wow fadeInRight" data-wow-offset="0" data-wow-delay="0.9s">
-          <div class="text-center">
-            <div class="hi-icon-wrap hi-icon-effect">
-              <h4>General Secondary Education Certification (IT). </h4>
-              <h5>2011 Jordan</h5>
-              <i class="fa fa-gear"></i>
-              
-            </div>
+          <div class="
+            progress-wrap
+            ">
+            <ul>
+              <li>
+                <h3>Leadership</h3>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
+  </div>
+  </div>
+  </section>
 
-      
+
+
+  <!--projects-->
+  <!-- // end slideshow -->
+  </div>
+  <!-- // grid-gallery -->
+  </div>
+  </section>
+  <!--education-->
+  <section class="
+            feedback" id="feedback">
+            <div class="container">
+              <div class="heading">
+                <h2 style="font-size:2.5em">Education</h2>
+              </div>
+            </div>
+
+            <div class="container">
+              <div class="col-md-4 wow fadeInRight" data-wow-offset="0" data-wow-delay="0.3s">
+                <div class="text-center">
+                  <div class="hi-icon-wrap hi-icon-effect">
+                    <h4>ReBootKamp(RBK) – Full stack web development</h4>
+                    <h5>FEB 2018 - June 2018</h5>
+                    <i class="fa fa-laptop"></i>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4 wow fadeInRight" data-wow-offset="0" data-wow-delay="0.6s">
+                <div class="text-center">
+                  <div class="hi-icon-wrap hi-icon-effect">
+                    <h4>German Language Certification (Goethe Institute). </h4>
+                    <h5>FEB 2014 - DEC 2014</h5>
+                    <i class="fa fa-book"></i>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4 wow fadeInRight" data-wow-offset="0" data-wow-delay="0.9s">
+                <div class="text-center">
+                  <div class="hi-icon-wrap hi-icon-effect">
+                    <h4>General Secondary Education Certification (IT). </h4>
+                    <h5>2011 Jordan</h5>
+                    <i class="fa fa-gear"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
     </section>
 
     <!--education-->
@@ -537,64 +477,56 @@ ply my problem solving skills.</h4>
       <div class="container">
         <div class="heading">
           <h2 style="font-size:3em">Contact</h2>
-          
+
         </div>
       </div>
-
       <div class="container">
         <div class="row">
           <div class="col-md-7">
-            
-          
-            </div>
           </div>
+        </div>
 
-          <div class="contact-info">
-            <div class="col-md-5">
-    
-              <ul>
-      
-                <li><a href = "tel:00962-797590369" target="_blank"><i class="fa fa-phone fa-2x" ></i> &nbsp;+962-797590369</a></li>
-                <li> <a href = "mailto:mohd.alduraidi@gmail.com" target="_blank"><i class="fa fa-envelope fa-2x" ></i> mohd.alduraidi@gmail.com</a> </li>
-                 <li> <a href = "https://goo.gl/maps/sXtBC4NZNKT2" target="_blank"> <i class="fa fa-map-marker fa-2x"></i> &nbsp;&nbsp;Amman, Jordan </a></li>
-                <a href="https://drive.google.com/uc?authuser=0&id=1BHLcB1GDH6GyjLCwTT7JNy2mJtQWUPQ-&export=download" class="button" target="_blank" ><i class="fa fa-download fa-2x"></i>&nbsp; Download Resume</a>
-
-              </ul>
-            </div>
+        <div class="contact-info">
+          <div class="col-md-5">
+            <ul>
+              <li><a href="tel:00962-797590369" target="_blank"><i class="fa fa-phone fa-2x"></i> &nbsp;+962-797590369</a></li>
+              <li> <a href="mailto:mohd.alduraidi@gmail.com" target="_blank"><i class="fa fa-envelope fa-2x"></i>
+                  mohd.alduraidi@gmail.com</a> </li>
+              <li> <a href="https://goo.gl/maps/sXtBC4NZNKT2" target="_blank"> <i class="fa fa-map-marker fa-2x"></i>
+                  &nbsp;&nbsp;Amman, Jordan </a></li>
+              <a href="https://drive.google.com/uc?authuser=0&id=1c_Yl1RQMwkq4qJrWQiUuN8MUa7kgIKV2&export=download"
+                class="button" target="_blank"><i class="fa fa-download fa-2x"></i>&nbsp;Download Resume</a>
+            </ul>
           </div>
         </div>
       </div>
+  </div>
+  </form>
+  </div>
+  </div>
+  </div>
+  </section>
 
-            </form>
-          </div>
-        </div>
+  <!--footer-->
+  <section class="footer" id="footer">
+    <p class="text-center">
+      <a href="#wrapper" class="gototop"><i class="fa fa-angle-double-up fa-2x"></i></a>
+    </p>
+    <div class="container">
+      <ul>
+        <li><a href="https://twitter.com/mohamed_duraidi" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
+        <li><a href="https://www.facebook.com/mohd.alduraidi" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/mohammed-duraidi-276408166/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+      </ul>
+      <div class="footer-copyright text-center py-3">© 2018 Copyright: Mohammed Duraidi
       </div>
-    </section>
-
-    <!--footer-->
-    <section class="footer" id="footer">
-      <p class="text-center">
-        <a href="#wrapper" class="gototop"><i class="fa fa-angle-double-up fa-2x"></i></a>
-      </p>
-      <div class="container">
-        <ul>
-          <li><a href="https://twitter.com/jackel_duraidi" target="_blank"  ><i class="fab fa-twitter-square"></i></a></li>
-          <li><a href="https://www.facebook.com/moe.alduridi" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
-          <li><a href="https://www.linkedin.com/in/mohammed-duraidi-276408166/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
-          
-        </ul>
-        
-        <div class="footer-copyright text-center py-3">© 2018 Copyright:  Mohammed Duraidi
-     </div>
-         
-        </div>
-      </div>
-    </section>
+    </div>
+    </div>
+  </section>
 
   </div>
   <script src="js/jquery.js"></script>
   <script src="js/modernizr.js"></script>
-  
   <script src="js/bootstrap.min.js"></script>
   <script src="js/menustick.js"></script>
   <script src="js/parallax.js"></script>
@@ -612,14 +544,14 @@ ply my problem solving skills.</h4>
     wow = new WOW({}).init();
   </script>
   <script type="text/javascript">
-    jQuery(function($) {
-      $(document).ready(function() {
+    jQuery(function ($) {
+      $(document).ready(function () {
         //enabling stickUp on the '.navbar-wrapper' class
         $('.navbar-wrapper').stickUp({
           parts: {
             0: 'banner',
             1: 'aboutus',
-            2:  'gallery',
+            2: 'gallery',
             3: 'specialties',
             4: 'feedback',
             5: 'contact',
@@ -632,43 +564,34 @@ ply my problem solving skills.</h4>
       });
 
 
+      window.onclick = function (event) {
+        var modal = document.getElementById('ticketModal');
+        if (event.target == modal) {
+          modal.style.display = "none";
+        }
+        var modal2 = document.getElementById('Hello');
+        if (event.target == modal2) {
+          modal2.style.display = "none";
+        }
+        var modal3 = document.getElementById('World');
+        if (event.target == modal3) {
+          modal3.style.display = "none";
+        }
 
-window.onclick = function(event) {
-  var modal = document.getElementById('ticketModal');
-
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
-
- var alo = document.getElementById('Hello');
-  
-  if (event.target == alo) {
-    alo.style.display = "none";
-  }
-
-var alo1 = document.getElementById('World');
-  
-  if (event.target == alo1) {
-    alo1.style.display = "none";
-  }
-
-}
-     
- 
-
-
+      }
     });
   </script>
   <script type="text/javascript">
 
-    function myFunction() {
-    var x = document.getElementById("navDemo");
-    if (x.className.indexOf("w3-show") == -1) {
+    function smallScreen() {
+      var x = document.getElementById("navDemo");
+      if (x.className.indexOf("w3-show") == -1) {
         x.className += " w3-show";
-    } else { 
+      } else {
         x.className = x.className.replace(" w3-show", "");
+      }
     }
-}
+
 
   </script>
   <script src="contactform/contactform.js"></script>
